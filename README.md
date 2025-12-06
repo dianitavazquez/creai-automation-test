@@ -59,6 +59,7 @@ Los casos cubiertos incluyen:
 ├── playwright.config.ts
 ├── package.json
 └── README.md
+```
 
 ---
 
