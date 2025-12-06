@@ -1,0 +1,17 @@
+{
+  "name": "creai-automation-test",
+  "version": "1.0.0",
+  "description": "Automatización de Smoke Test para Homepage de creai.mx",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test ../tests/",
+    "test:open-report": "npx playwright test ../tests/ && npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://www.creai.mx",
+  "aboutUrl": "https://www.creai.mx/about-us",
+  "sectionsExpected": 3,
+  "mobileViewport": {
+    "width": 390,
+    "height": 844
+  }
+}
