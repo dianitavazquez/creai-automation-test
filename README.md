@@ -105,5 +105,5 @@ npx playwright test home.spec.ts
 
 ## 👩🏻‍💻 Author
 
-Diana Vázquez
+Diana Vázquez  
 Senior QA Automation Engineer
