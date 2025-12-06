@@ -5,7 +5,6 @@
 ![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Pattern](https://img.shields.io/badge/Pattern-POM-blueviolet)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 ---
 
@@ -32,30 +31,31 @@ Los casos cubiertos incluyen:
 - Validación de 3 secciones visibles cargadas correctamente.
 
 ### ✅ 3. Navegación
-- Click en ítem del menú.  
+- Click en item del menú.  
 - Validación de redirección a la sección/URL correcta.
 
 ### 📱 4. Mobile viewport (opcional)
-- Prueba en viewport "iPhone X".  
+- Prueba en viewport mobile.  
 - Confirmar visibilidad de elementos clave en mobile.
 
 ---
 
 ## 🏗️ Project Structure (POM + TS)
 
+```plaintext
 📦 creai-smoke-playwright
 ├── src
 │   ├── data
-│   │ └── home.data.ts # Test data centralizada
+│   │   └── home.data.ts            # Test data centralizada
 │   ├── fixtures
-│   │ └── test-fixtures.ts # Fixtures reutilizables 
+│   │   └── test-fixtures.ts        # Fixtures reutilizables 
 │   ├── pages
-│   │ └── home.page.ts # Page Object Model
+│   │   └── home.page.ts            # Page Object Model
 │   ├── tests
-│   │ └── home.spec.ts # Test suite principal
+│   │   └── home.spec.ts            # Test suite principal
 │   ├── utils
-│   │ └── consoleErrors.ts # Validación de errores de consola
-│   │ └── responseValidator.ts # Validación de status de red
+│   │   ├── consoleErrors.ts        # Validación de errores de consola
+│   │   └── responseValidator.ts    # Validación de status de red
 ├── playwright.config.ts
 ├── package.json
 └── README.md
@@ -91,7 +91,7 @@ npx playwright test --ui
 ```
 ### 🔹 Ejecutar solo el smoke test
 ```bash
-npx playwright test homeSmoke.spec.ts
+npx playwright test home.spec.ts
 ```
 
 ## 🧠 Tech Stack
